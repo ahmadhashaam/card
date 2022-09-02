@@ -1,0 +1,44 @@
+<!doctype>
+<html>
+   <head>
+       <link rel="stylesheet" href="styles.css">
+       <body>
+           <div class="card">
+               <img class="img" src="images/per.png" alt="a teacher smiling at their students">
+         <div class="text-part">
+             <h1>The coder boy</h1>
+             <h2>from: norway</h2>
+             <p>tel no: 080080800</p>
+         </div>
+           </div>
+       </body>
+   </head>
+</html>
+
+
+CSS>
+
+body{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.card{
+ cursor: pointer;
+ border-top: 10px solid #cbc0d3;
+  width: 400px;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;
+    background: #efd3d7;
+    
+    
+  
+}
+.img {
+    width: 150px;
+    border: 1px solid #8e9aaf;
+    border-radius: 5px;
+    cursor: hover
+}
